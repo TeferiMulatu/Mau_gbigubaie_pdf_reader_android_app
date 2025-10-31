@@ -61,6 +61,9 @@ Universal APK (works on most devices):
 flutter clean
 flutter pub get
 flutter build apk --release
+or 
+flutter build apk --release --target-platform android-arm64 //to build for android only to minimize the size of the apk
+flutter install
 ```
 
 Install the APK via adb:
